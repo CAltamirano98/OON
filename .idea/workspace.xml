@@ -37,7 +37,7 @@
       <recent name="\\wsl$\Ubuntu-18.04\home\alt\OON\oopt-gnpy-master" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Lab3">
+  <component name="RunManager" selected="Python.Lab4">
     <configuration name="Lab3" type="PythonConfigurationType" factoryName="Python">
       <module name="OON" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,7 +50,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab3/Lab3ej2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab3/Lab3ej1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +71,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab4ej3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab4/Lab4ej3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,10 +128,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Lab3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="146" y="6" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600356589099">
+    <state x="146" y="6" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600358644958">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="146" y="6" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600356589099" />
+    <state x="146" y="6" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600358644958" />
     <state x="444" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599756928364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -140,22 +140,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599668178217" />
-    <state width="1345" height="211" key="GridCell.Tab.0.bottom" timestamp="1600357039327">
+    <state width="1345" height="211" key="GridCell.Tab.0.bottom" timestamp="1600358768836">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600357039327" />
-    <state width="1345" height="211" key="GridCell.Tab.0.center" timestamp="1600357039326">
+    <state width="1345" height="211" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600358768836" />
+    <state width="1345" height="211" key="GridCell.Tab.0.center" timestamp="1600358768835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600357039326" />
-    <state width="1345" height="211" key="GridCell.Tab.0.left" timestamp="1600357039325">
+    <state width="1345" height="211" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600358768835" />
+    <state width="1345" height="211" key="GridCell.Tab.0.left" timestamp="1600358768835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600357039325" />
-    <state width="1345" height="211" key="GridCell.Tab.0.right" timestamp="1600357039326">
+    <state width="1345" height="211" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600358768835" />
+    <state width="1345" height="211" key="GridCell.Tab.0.right" timestamp="1600358768835">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600357039326" />
+    <state width="1345" height="211" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600358768835" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1599756994605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
