@@ -1,5 +1,3 @@
-#import json as js
-#import gnpy.core.info as gn
 import matplotlib.pyplot as plt
 import numpy as np
 

@@ -16,6 +16,7 @@ with open("Parameters.json", "w") as write_file:
 with open("Parameters.json", "r") as read_file:
     data = js.load(read_file)
 
+# Create spetral information
 si = gn.create_input_spectral_information(data['f min'], data['f max'], data['roll off'], data['baud rate'],
                                           data['power'], data['spacing'])
 

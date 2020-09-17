@@ -1,5 +1,5 @@
-Physical Model used in GNPy
-===========================
+The QoT estimation in the PSE framework of TIP-OOPT
+=======================================================
 
 QoT-E including ASE noise and NLI accumulation 
 ----------------------------------------------

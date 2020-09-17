@@ -252,6 +252,48 @@
       }
     },
     {
+      "uid": "roadm a",
+      "type": "Roadm",
+      "params": {
+        "target_pch_out_db": -20,
+        "restrictions": {
+          "preamp_variety_list": [],
+          "booster_variety_list": [
+            "std_booster"
+          ]
+        }
+      },
+      "metadata": {
+        "location": {
+          "latitude": 6.0,
+          "longitude": 0.0,
+          "city": "a",
+          "region": ""
+        }
+      }
+    },
+    {
+      "uid": "roadm b",
+      "type": "Roadm",
+      "params": {
+        "target_pch_out_db": -20,
+        "restrictions": {
+          "preamp_variety_list": [
+            "std_low_gain"
+          ],
+          "booster_variety_list": []
+        }
+      },
+      "metadata": {
+        "location": {
+          "latitude": 5.0,
+          "longitude": 0.0,
+          "city": "b",
+          "region": ""
+        }
+      }
+    },
+    {
       "uid": "roadm c",
       "type": "Roadm",
       "params": {
@@ -366,48 +408,6 @@
       }
     },
     {
-      "uid": "roadm a",
-      "type": "Roadm",
-      "params": {
-        "target_pch_out_db": -20,
-        "restrictions": {
-          "preamp_variety_list": [],
-          "booster_variety_list": [
-            "std_booster"
-          ]
-        }
-      },
-      "metadata": {
-        "location": {
-          "latitude": 6.0,
-          "longitude": 0.0,
-          "city": "a",
-          "region": ""
-        }
-      }
-    },
-    {
-      "uid": "roadm b",
-      "type": "Roadm",
-      "params": {
-        "target_pch_out_db": -20,
-        "restrictions": {
-          "preamp_variety_list": [
-            "std_low_gain"
-          ],
-          "booster_variety_list": []
-        }
-      },
-      "metadata": {
-        "location": {
-          "latitude": 5.0,
-          "longitude": 0.0,
-          "city": "b",
-          "region": ""
-        }
-      }
-    },
-    {
       "uid": "west fused spans in Corlay",
       "type": "Fused",
       "params": {
@@ -502,6 +502,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 20.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -523,6 +524,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 50.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -544,6 +546,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 60.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -565,6 +568,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 10.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -586,6 +590,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 60.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -607,6 +612,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 65.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -628,6 +634,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 40.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -649,6 +656,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 35.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -670,6 +678,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 75.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -691,6 +700,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 70.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -712,6 +722,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 50.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -733,6 +744,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 55.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -754,6 +766,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 30.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -775,6 +788,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 30.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -796,6 +810,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 10.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -817,6 +832,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 60.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -838,6 +854,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 70.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -859,6 +876,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 80.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -880,6 +898,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 90.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -901,6 +920,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 100.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -922,6 +942,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 110.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -943,6 +964,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 20.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -964,6 +986,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 50.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -985,6 +1008,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 60.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1006,6 +1030,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 10.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1027,6 +1052,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 60.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1048,6 +1074,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 65.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1069,6 +1096,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 40.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1090,6 +1118,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 35.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1111,6 +1140,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 75.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1132,6 +1162,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 70.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1153,6 +1184,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 50.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1174,6 +1206,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 55.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1195,6 +1228,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 30.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1216,6 +1250,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 30.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1237,6 +1272,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 10.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1258,6 +1294,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 60.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1279,6 +1316,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 70.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1300,6 +1338,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 80.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1321,6 +1360,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 90.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1342,6 +1382,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 100.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1363,6 +1404,7 @@
       "type": "Fiber",
       "type_variety": "SSMF",
       "params": {
+        "type_variety": "SSMF",
         "length": 110.0,
         "loss_coef": 0.2,
         "length_units": "km",
@@ -1418,25 +1460,6 @@
       }
     },
     {
-      "uid": "east edfa in Lannion_CAS to Morlaix",
-      "type": "Edfa",
-      "type_variety": "std_low_gain",
-      "operational": {
-        "gain_target": 18.0,
-        "delta_p": null,
-        "tilt_target": 0,
-        "out_voa": 0.5
-      },
-      "metadata": {
-        "location": {
-          "latitude": 2.0,
-          "longitude": 0.0,
-          "city": "Lannion_CAS",
-          "region": "RLD"
-        }
-      }
-    },
-    {
       "uid": "east edfa in Stbrieuc to Rennes_STA",
       "type": "Edfa",
       "type_variety": "std_medium_gain",
@@ -1451,6 +1474,25 @@
           "latitude": 3.0,
           "longitude": 0.0,
           "city": "Stbrieuc",
+          "region": "RLD"
+        }
+      }
+    },
+    {
+      "uid": "east edfa in Lannion_CAS to Morlaix",
+      "type": "Edfa",
+      "type_variety": "std_low_gain",
+      "operational": {
+        "gain_target": 18.0,
+        "delta_p": null,
+        "tilt_target": 0,
+        "out_voa": 0.5
+      },
+      "metadata": {
+        "location": {
+          "latitude": 2.0,
+          "longitude": 0.0,
+          "city": "Lannion_CAS",
           "region": "RLD"
         }
       }
@@ -1551,7 +1593,7 @@
       "type": "Edfa",
       "type_variety": "test_fixed_gain",
       "operational": {
-        "gain_target": 20,
+        "gain_target": 20.0,
         "delta_p": null,
         "tilt_target": 0,
         "out_voa": 0
@@ -1570,7 +1612,7 @@
       "type": "Edfa",
       "type_variety": "test_fixed_gain",
       "operational": {
-        "gain_target": 20,
+        "gain_target": 20.0,
         "delta_p": null,
         "tilt_target": 0,
         "out_voa": 0
@@ -1699,11 +1741,87 @@
       }
     },
     {
+      "uid": "Edfa0_roadm a",
+      "type": "Edfa",
+      "type_variety": "std_booster",
+      "operational": {
+        "gain_target": 20,
+        "delta_p": null,
+        "tilt_target": 0,
+        "out_voa": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": 5.75,
+          "longitude": 0.0,
+          "city": "a",
+          "region": ""
+        }
+      }
+    },
+    {
+      "uid": "Edfa1_roadm a",
+      "type": "Edfa",
+      "type_variety": "std_booster",
+      "operational": {
+        "gain_target": 20,
+        "delta_p": null,
+        "tilt_target": 0,
+        "out_voa": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": 6.0,
+          "longitude": 0.25,
+          "city": "a",
+          "region": ""
+        }
+      }
+    },
+    {
+      "uid": "Edfa0_roadm b",
+      "type": "Edfa",
+      "type_variety": "test_fixed_gain",
+      "operational": {
+        "gain_target": 20,
+        "delta_p": null,
+        "tilt_target": 0,
+        "out_voa": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": 5.25,
+          "longitude": 0.0,
+          "city": "b",
+          "region": ""
+        }
+      }
+    },
+    {
+      "uid": "Edfa1_roadm b",
+      "type": "Edfa",
+      "type_variety": "test_fixed_gain",
+      "operational": {
+        "gain_target": 20,
+        "delta_p": null,
+        "tilt_target": 0,
+        "out_voa": 0
+      },
+      "metadata": {
+        "location": {
+          "latitude": 5.0,
+          "longitude": 0.25,
+          "city": "b",
+          "region": ""
+        }
+      }
+    },
+    {
       "uid": "Edfa0_roadm c",
       "type": "Edfa",
       "type_variety": "test_fixed_gain",
       "operational": {
-        "gain_target": 22.0,
+        "gain_target": 22,
         "delta_p": null,
         "tilt_target": 0,
         "out_voa": 0
@@ -1722,7 +1840,7 @@
       "type": "Edfa",
       "type_variety": "test_fixed_gain",
       "operational": {
-        "gain_target": 22.0,
+        "gain_target": 22,
         "delta_p": null,
         "tilt_target": 0,
         "out_voa": 0
@@ -1941,82 +2059,6 @@
           "latitude": 5.0,
           "longitude": 2.25,
           "city": "h",
-          "region": ""
-        }
-      }
-    },
-    {
-      "uid": "Edfa0_roadm a",
-      "type": "Edfa",
-      "type_variety": "std_booster",
-      "operational": {
-        "gain_target": 20,
-        "delta_p": null,
-        "tilt_target": 0,
-        "out_voa": 0
-      },
-      "metadata": {
-        "location": {
-          "latitude": 5.75,
-          "longitude": 0.0,
-          "city": "a",
-          "region": ""
-        }
-      }
-    },
-    {
-      "uid": "Edfa1_roadm a",
-      "type": "Edfa",
-      "type_variety": "std_booster",
-      "operational": {
-        "gain_target": 20,
-        "delta_p": null,
-        "tilt_target": 0,
-        "out_voa": 0
-      },
-      "metadata": {
-        "location": {
-          "latitude": 6.0,
-          "longitude": 0.25,
-          "city": "a",
-          "region": ""
-        }
-      }
-    },
-    {
-      "uid": "Edfa0_roadm b",
-      "type": "Edfa",
-      "type_variety": "test_fixed_gain",
-      "operational": {
-        "gain_target": 20,
-        "delta_p": null,
-        "tilt_target": 0,
-        "out_voa": 0
-      },
-      "metadata": {
-        "location": {
-          "latitude": 5.25,
-          "longitude": 0.0,
-          "city": "b",
-          "region": ""
-        }
-      }
-    },
-    {
-      "uid": "Edfa1_roadm b",
-      "type": "Edfa",
-      "type_variety": "test_fixed_gain",
-      "operational": {
-        "gain_target": 20,
-        "delta_p": null,
-        "tilt_target": 0,
-        "out_voa": 0
-      },
-      "metadata": {
-        "location": {
-          "latitude": 5.0,
-          "longitude": 0.25,
-          "city": "b",
           "region": ""
         }
       }
@@ -2756,6 +2798,30 @@
       "to_node": "east edfa in c to d"
     },
     {
+      "from_node": "roadm a",
+      "to_node": "trx a"
+    },
+    {
+      "from_node": "roadm a",
+      "to_node": "Edfa0_roadm a"
+    },
+    {
+      "from_node": "roadm a",
+      "to_node": "Edfa1_roadm a"
+    },
+    {
+      "from_node": "roadm b",
+      "to_node": "trx b"
+    },
+    {
+      "from_node": "roadm b",
+      "to_node": "Edfa0_roadm b"
+    },
+    {
+      "from_node": "roadm b",
+      "to_node": "Edfa1_roadm b"
+    },
+    {
       "from_node": "roadm c",
       "to_node": "trx c"
     },
@@ -2830,30 +2896,6 @@
     {
       "from_node": "roadm h",
       "to_node": "Edfa1_roadm h"
-    },
-    {
-      "from_node": "roadm a",
-      "to_node": "trx a"
-    },
-    {
-      "from_node": "roadm a",
-      "to_node": "Edfa0_roadm a"
-    },
-    {
-      "from_node": "roadm a",
-      "to_node": "Edfa1_roadm a"
-    },
-    {
-      "from_node": "roadm b",
-      "to_node": "trx b"
-    },
-    {
-      "from_node": "roadm b",
-      "to_node": "Edfa0_roadm b"
-    },
-    {
-      "from_node": "roadm b",
-      "to_node": "Edfa1_roadm b"
     },
     {
       "from_node": "west fused spans in Corlay",
@@ -3056,12 +3098,12 @@
       "to_node": "fiber (Lannion_CAS → Stbrieuc)-F056"
     },
     {
-      "from_node": "east edfa in Lannion_CAS to Morlaix",
-      "to_node": "fiber (Lannion_CAS → Morlaix)-F059"
-    },
-    {
       "from_node": "east edfa in Stbrieuc to Rennes_STA",
       "to_node": "fiber (Stbrieuc → Rennes_STA)-F057"
+    },
+    {
+      "from_node": "east edfa in Lannion_CAS to Morlaix",
+      "to_node": "fiber (Lannion_CAS → Morlaix)-F059"
     },
     {
       "from_node": "east edfa in Brest_KLA to Quimper",
@@ -3116,6 +3158,22 @@
       "to_node": "fiber (Brest_KLA → Morlaix)-F060"
     },
     {
+      "from_node": "Edfa0_roadm a",
+      "to_node": "fiber (a → b)-"
+    },
+    {
+      "from_node": "Edfa1_roadm a",
+      "to_node": "fiber (a → c)-"
+    },
+    {
+      "from_node": "Edfa0_roadm b",
+      "to_node": "fiber (b → a)-"
+    },
+    {
+      "from_node": "Edfa1_roadm b",
+      "to_node": "fiber (b → f)-"
+    },
+    {
       "from_node": "Edfa0_roadm c",
       "to_node": "fiber (c → a)-"
     },
@@ -3166,22 +3224,6 @@
     {
       "from_node": "Edfa1_roadm h",
       "to_node": "fiber (h → g)-"
-    },
-    {
-      "from_node": "Edfa0_roadm a",
-      "to_node": "fiber (a → b)-"
-    },
-    {
-      "from_node": "Edfa1_roadm a",
-      "to_node": "fiber (a → c)-"
-    },
-    {
-      "from_node": "Edfa0_roadm b",
-      "to_node": "fiber (b → a)-"
-    },
-    {
-      "from_node": "Edfa1_roadm b",
-      "to_node": "fiber (b → f)-"
     },
     {
       "from_node": "Edfa0_fiber (Loudeac → Lorient_KMA)-F054",
