@@ -19,7 +19,7 @@ def MonitorNode(node):
 
 def GenerateSysComponents():
     # loading fiber data from json file
-    with open("my_fiber.json", "r") as rd_file:
+    with open("my_fiber_ex3.json", "r") as rd_file:
         data = json.load(rd_file)
     data['Fiber']['params']['gamma'] = 0.00127
     # loading data fiber

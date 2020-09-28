@@ -41,7 +41,7 @@ RecoveringGain = - FiberLoss
 print("Setting EDFA gain =",RecoveringGain, " we are able to recover losses")
 
 #Instantiating EDFA
-edfa_params = get_edfa_parameters("my_config.json","material/eqp.json")
+edfa_params = get_edfa_parameters("my_config.json","eqp.json")
 edfa_params['operational']['gain_target'] = RecoveringGain
 
 edfa = Edfa(**edfa_params)
@@ -64,9 +64,21 @@ input_power_vect = [ 10*log10(WDM_in[1][i][4][0])+30 for i in range(len( WDM_in[
 fiber_power_vect = [ 10*log10(WDM_out_fiber[1][i][4][0])+30 for i in range(len( WDM_in[1] )) ]
 output_power_vect = [ 10*log10(WDM_out_edfa[1][i][4][0])+30 for i in range(len( WDM_out_edfa[1] )) ]
 
+
+propagated = fiber(WDM_in)
+channels = propagated.carriers
+initial_power_dBm = -1
+output_fiber_power_W = channels[45].power.signal
+output_fiber_power_dBm = 10*log10(output_fiber_power_W/1e-3)
+print('The output power after the fiber for the channel 45 (in dBm) is:', output_fiber_power_dBm)
+# output power should be Ptx - L*att - con_in - con_out = -1 -80*0.2 -0.5 -0.5
+loss = initial_power_dBm - output_fiber_power_dBm
+print("The loss is: ", loss)
+
+
 plt.ylabel("[dBm] (power of signals)")
 plt.xlabel("Channels number")
-plt.plot(channel_axis,input_power_vect,'bo')
+plt.plot(channel_axis,input_power_vect,'o')
 plt.plot(channel_axis,fiber_power_vect,'+')
-plt.plot(channel_axis,output_power_vect,'ro')
+plt.plot(channel_axis,output_power_vect,'*')
 plt.show()

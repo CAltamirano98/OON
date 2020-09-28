@@ -1,0 +1,16 @@
+{
+"Fiber":{
+	    "uid": "MyFiber",
+	    "params": {
+	    				"length": 80,
+	    				"loss_coef": 0.3,
+	    				"length_units": "km",
+	    				"att_in": 0,
+	    				"con_in": 0,
+	    				"con_out": 0,
+	    				"type_variety": "SSMF",
+	    				"dispersion": 1.67e-05,
+	    				"gamma": 0.00127
+	    			   }
+        }
+}

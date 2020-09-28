@@ -37,7 +37,7 @@
       <recent name="\\wsl$\Ubuntu-18.04\home\alt\OON\oopt-gnpy-master" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Lab5">
+  <component name="RunManager" selected="Python.Lab6">
     <configuration name="Lab3" type="PythonConfigurationType" factoryName="Python">
       <module name="OON" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,7 +50,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab3/Lab3ej1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab3/Lab3ej3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +71,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab4/Lab4ej3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab4/Lab4Transceibers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,11 +88,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\anaconda3\envs\env_name\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab5ej2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Lab5ej1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OON" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab5ej1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,12 +129,33 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\anaconda3\envs\env_name\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab6ej1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab6ej2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Lab7" type="PythonConfigurationType" factoryName="Python">
+      <module name="OON" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab7ej3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,14 +186,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Lab6" />
       <item itemvalue="Python.Lab3" />
       <item itemvalue="Python.Lab4" />
       <item itemvalue="Python.Lab5" />
+      <item itemvalue="Python.Lab5ej1" />
+      <item itemvalue="Python.Lab6" />
+      <item itemvalue="Python.Lab7" />
       <item itemvalue="Python.Prueba" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lab5ej1" />
         <item itemvalue="Python.Prueba" />
       </list>
     </recent_temporary>
@@ -172,10 +217,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Lab3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="146" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600423128904">
+    <state x="192" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600966933512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="146" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600423128904" />
+    <state x="192" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600966933512" />
     <state x="444" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599756928364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -184,22 +229,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599668178217" />
-    <state width="1345" height="152" key="GridCell.Tab.0.bottom" timestamp="1600423130739">
+    <state width="1345" height="193" key="GridCell.Tab.0.bottom" timestamp="1600968989256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600423130739" />
-    <state width="1345" height="152" key="GridCell.Tab.0.center" timestamp="1600423130738">
+    <state width="1345" height="193" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600968989256" />
+    <state width="1345" height="193" key="GridCell.Tab.0.center" timestamp="1600968989256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600423130738" />
-    <state width="1345" height="152" key="GridCell.Tab.0.left" timestamp="1600423130738">
+    <state width="1345" height="193" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600968989256" />
+    <state width="1345" height="193" key="GridCell.Tab.0.left" timestamp="1600968989255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600423130738" />
-    <state width="1345" height="152" key="GridCell.Tab.0.right" timestamp="1600423130739">
+    <state width="1345" height="193" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600968989255" />
+    <state width="1345" height="193" key="GridCell.Tab.0.right" timestamp="1600968989256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600423130739" />
+    <state width="1345" height="193" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600968989256" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1599756994605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

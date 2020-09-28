@@ -2,7 +2,6 @@ from utilities import *
 from gnpy.core.info import *
 import json
 import matplotlib.pyplot as plt
-from math import *
 from gnpy.core.elements import *
 
 
